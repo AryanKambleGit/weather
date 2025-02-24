@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Weather App - CodingWallahSir</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+<style type="text/css"> 
+	html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('images/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.searchInput {
+    margin-top: 20px;
+}
+
+#searchButton {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+</style>
+</head>
+<body>
+ 
+		<div style="color:white; text-align:center">
+				
+				<h1>Welcome to the Weather Web App</h1>
+ <h2> Hey Aryan KAmble Here</h2>
+		
+<p> an basic weather checking in your city project</p>
+		 
+	
+	
+	<form action="Myservelet" method="post" class="searchInput">
+		<input type="text" placeholder="Enter City Name" id="searchInput" value="" name="city"/>
+		<button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+	</form>
+		</div>
+</body>
+</html>
